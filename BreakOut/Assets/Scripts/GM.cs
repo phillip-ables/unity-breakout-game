@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.UI;
 
 public class GM : MonoBehaviour {
@@ -21,7 +22,11 @@ public class GM : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
+        //enforce that singleton pattern
+        if (instance == null)
+            instance = this;
+        else if (instance != this)
+            Destroy(gameObject);
 	}
 	
 	// Update is called once per frame
