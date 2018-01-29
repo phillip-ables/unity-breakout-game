@@ -25,9 +25,17 @@ public class GM : MonoBehaviour {
         //enforce that singleton pattern
         if (instance == null)
             instance = this;
-        else if (instance != this)
+        else if (instance != tmerhis)
             Destroy(gameObject);
+
+        Setup();
 	}
+
+    public void Setup()
+    {
+        clonePaddle = Instantiate(paddle, transform.position, Quaternion.identity) as GameObject;
+        Instantiate(bricksPrefab, transform.position, Quaternion.identity);
+    }
 	
 	// Update is called once per frame
 	void Update () {
