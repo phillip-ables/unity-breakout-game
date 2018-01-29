@@ -4,15 +4,30 @@ using UnityEngine;
 
 public class Ball : MonoBehaviour {
     public float ballInitialVel = 600f;
-    private RigidBody rb;
+    //public GameObject ball;
+    private Rigidbody rb;
+    //rb = GameComponent<Rigidbody>;
+    private bool ballInPlay;
 
-	// Like start but before start
-	void Awake () {
-        rb = GameComponent<Rigidbody>;
+    //it lightbulbed this
+    //public RigidBody Rb { get => rb; set => rb = value; };
+
+
+    // Like start but before start
+    void Awake () {
+        rb = GetComponent<Rigidbody>();
 ;	}
 	
 	// Update is called once per frame
 	void Update () {
-		
-	}
+        //rb = GameComponent<Rigidbody>;
+
+        if (Input.GetButtonDown("Fire1") && ballInPlay == false)
+        {
+            transform.parent = null;
+            ballInPlay = true;
+            rb.isKinematic = false;
+            rb.AddForce(new Vector3(ballInitialVel, ballInitialVel, 7));
+        }
+    }
 }
