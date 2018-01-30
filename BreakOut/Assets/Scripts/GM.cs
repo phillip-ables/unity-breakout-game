@@ -36,9 +36,53 @@ public class GM : MonoBehaviour {
         clonePaddle = Instantiate(paddle, transform.position, Quaternion.identity) as GameObject;
         Instantiate(bricksPrefab, transform.position, Quaternion.identity);
     }
-	
-	// Update is called once per frame
-	void Update () {
 
-	}
+    void CheckGameOver()
+    {
+        if (bricks < 1)
+        {
+            youWon.SetActive(true);
+            //totally cosmetic just for fun
+            Time.timeScale = .25f;
+            //Invoke allows you to call a function with a delay
+            Invoke("Reset", resetDelay);
+        }
+        if (lives < 1)
+        {
+            gameOver.SetActive(true);
+            Time.timeScale = .25f;
+            Invoke("Reset", resetDelay);
+        }
+    }
+
+    void Reset()
+    {
+        //go back to normal time
+        Time.timeScale = 1f;
+        //we use the load level to load scenes this time its the last loaded level
+        Application.LoadLevel(Application.loadedLevel);
+    }
+
+    public void LoseLife()
+    {
+        lives--;
+        livesText.text = "Lives: " + lives;
+        //instanctiate death particles at position of clone paddle
+        Instantiate(deathParticles, clonePaddle.tranform.position, Quaternion.identity);
+        Destroy(clonePaddle);
+        invoke("SetupPaddle", resetDelay);
+        CheckGameOver();
+    }
+
+    void SetupPaddle()
+    {
+        clonePaddle = Instantiate(paddle, transform.position, Quaternion.identity) as GameObject;
+    }
+
+    public void DestryBrick()
+    {
+        bricks--;
+        CheckGameOver();
+    }
+    //delet update because were not using it
 }
