@@ -9,7 +9,7 @@ public class GM : MonoBehaviour {
     public float resetDelay = 1f;
     public Text livesText;
     public GameObject gameOver;
-    public GameObject youWin;
+    public GameObject youWon;
     public GameObject bricksPrefab;
     public GameObject paddle;
     public GameObject deathParticles;
@@ -25,7 +25,7 @@ public class GM : MonoBehaviour {
         //enforce that singleton pattern
         if (instance == null)
             instance = this;
-        else if (instance != tmerhis)
+        else if (instance != this)
             Destroy(gameObject);
 
         Setup();
@@ -68,9 +68,9 @@ public class GM : MonoBehaviour {
         lives--;
         livesText.text = "Lives: " + lives;
         //instanctiate death particles at position of clone paddle
-        Instantiate(deathParticles, clonePaddle.tranform.position, Quaternion.identity);
+        Instantiate(deathParticles, clonePaddle.transform.position, Quaternion.identity);
         Destroy(clonePaddle);
-        invoke("SetupPaddle", resetDelay);
+        Invoke("SetupPaddle", resetDelay);
         CheckGameOver();
     }
 
@@ -79,7 +79,7 @@ public class GM : MonoBehaviour {
         clonePaddle = Instantiate(paddle, transform.position, Quaternion.identity) as GameObject;
     }
 
-    public void DestryBrick()
+    public void DestroyBrick()
     {
         bricks--;
         CheckGameOver();

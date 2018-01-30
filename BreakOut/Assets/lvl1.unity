@@ -124,6 +124,7 @@ GameObject:
   - component: {fileID: 131941760}
   - component: {fileID: 131941759}
   - component: {fileID: 131941758}
+  - component: {fileID: 131941762}
   m_Layer: 0
   m_Name: Brick (17)
   m_TagString: Untagged
@@ -197,6 +198,19 @@ Transform:
   m_Father: {fileID: 1898539764}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &131941762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 131941757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63a63c20968612243b41eb0837816676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brickParticle: {fileID: 1189039463878214, guid: 76baf8f1aafc8a64daf783af6d49db75,
+    type: 2}
 --- !u!1 &195036688
 GameObject:
   m_ObjectHideFlags: 0
@@ -282,6 +296,7 @@ GameObject:
   - component: {fileID: 230592803}
   - component: {fileID: 230592802}
   - component: {fileID: 230592801}
+  - component: {fileID: 230592805}
   m_Layer: 0
   m_Name: Brick (20)
   m_TagString: Untagged
@@ -355,6 +370,19 @@ Transform:
   m_Father: {fileID: 1898539764}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &230592805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 230592800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63a63c20968612243b41eb0837816676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brickParticle: {fileID: 1189039463878214, guid: 76baf8f1aafc8a64daf783af6d49db75,
+    type: 2}
 --- !u!1 &337578053
 GameObject:
   m_ObjectHideFlags: 0
@@ -366,6 +394,7 @@ GameObject:
   - component: {fileID: 337578056}
   - component: {fileID: 337578055}
   - component: {fileID: 337578054}
+  - component: {fileID: 337578058}
   m_Layer: 0
   m_Name: Brick (8)
   m_TagString: Untagged
@@ -439,6 +468,19 @@ Transform:
   m_Father: {fileID: 1898539764}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &337578058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 337578053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63a63c20968612243b41eb0837816676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brickParticle: {fileID: 1189039463878214, guid: 76baf8f1aafc8a64daf783af6d49db75,
+    type: 2}
 --- !u!1 &369334847
 GameObject:
   m_ObjectHideFlags: 0
@@ -450,6 +492,7 @@ GameObject:
   - component: {fileID: 369334850}
   - component: {fileID: 369334849}
   - component: {fileID: 369334848}
+  - component: {fileID: 369334852}
   m_Layer: 0
   m_Name: Brick (12)
   m_TagString: Untagged
@@ -523,6 +566,19 @@ Transform:
   m_Father: {fileID: 1898539764}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &369334852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 369334847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63a63c20968612243b41eb0837816676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brickParticle: {fileID: 1189039463878214, guid: 76baf8f1aafc8a64daf783af6d49db75,
+    type: 2}
 --- !u!1 &398769412
 GameObject:
   m_ObjectHideFlags: 0
@@ -534,6 +590,7 @@ GameObject:
   - component: {fileID: 398769415}
   - component: {fileID: 398769414}
   - component: {fileID: 398769413}
+  - component: {fileID: 398769417}
   m_Layer: 0
   m_Name: Brick (2)
   m_TagString: Untagged
@@ -607,6 +664,19 @@ Transform:
   m_Father: {fileID: 1898539764}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &398769417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 398769412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63a63c20968612243b41eb0837816676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brickParticle: {fileID: 1189039463878214, guid: 76baf8f1aafc8a64daf783af6d49db75,
+    type: 2}
 --- !u!1 &452136224
 GameObject:
   m_ObjectHideFlags: 0
@@ -618,6 +688,7 @@ GameObject:
   - component: {fileID: 452136227}
   - component: {fileID: 452136226}
   - component: {fileID: 452136225}
+  - component: {fileID: 452136229}
   m_Layer: 0
   m_Name: Brick (14)
   m_TagString: Untagged
@@ -691,6 +762,19 @@ Transform:
   m_Father: {fileID: 1898539764}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &452136229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 452136224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63a63c20968612243b41eb0837816676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brickParticle: {fileID: 1189039463878214, guid: 76baf8f1aafc8a64daf783af6d49db75,
+    type: 2}
 --- !u!1 &500826901
 GameObject:
   m_ObjectHideFlags: 0
@@ -702,6 +786,7 @@ GameObject:
   - component: {fileID: 500826904}
   - component: {fileID: 500826903}
   - component: {fileID: 500826902}
+  - component: {fileID: 500826906}
   m_Layer: 0
   m_Name: Brick (4)
   m_TagString: Untagged
@@ -775,6 +860,19 @@ Transform:
   m_Father: {fileID: 1898539764}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &500826906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 500826901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63a63c20968612243b41eb0837816676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brickParticle: {fileID: 1189039463878214, guid: 76baf8f1aafc8a64daf783af6d49db75,
+    type: 2}
 --- !u!1 &504856080
 GameObject:
   m_ObjectHideFlags: 0
@@ -786,6 +884,7 @@ GameObject:
   - component: {fileID: 504856083}
   - component: {fileID: 504856082}
   - component: {fileID: 504856081}
+  - component: {fileID: 504856085}
   m_Layer: 0
   m_Name: Brick (31)
   m_TagString: Untagged
@@ -859,6 +958,19 @@ Transform:
   m_Father: {fileID: 1898539764}
   m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &504856085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 504856080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63a63c20968612243b41eb0837816676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brickParticle: {fileID: 1189039463878214, guid: 76baf8f1aafc8a64daf783af6d49db75,
+    type: 2}
 --- !u!1 &516406208
 GameObject:
   m_ObjectHideFlags: 0
@@ -870,6 +982,7 @@ GameObject:
   - component: {fileID: 516406211}
   - component: {fileID: 516406210}
   - component: {fileID: 516406209}
+  - component: {fileID: 516406213}
   m_Layer: 0
   m_Name: Brick (9)
   m_TagString: Untagged
@@ -943,6 +1056,19 @@ Transform:
   m_Father: {fileID: 1898539764}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &516406213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 516406208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63a63c20968612243b41eb0837816676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brickParticle: {fileID: 1189039463878214, guid: 76baf8f1aafc8a64daf783af6d49db75,
+    type: 2}
 --- !u!1 &589320547
 GameObject:
   m_ObjectHideFlags: 0
@@ -1210,6 +1336,7 @@ GameObject:
   - component: {fileID: 699358248}
   - component: {fileID: 699358247}
   - component: {fileID: 699358246}
+  - component: {fileID: 699358250}
   m_Layer: 0
   m_Name: Brick (11)
   m_TagString: Untagged
@@ -1283,6 +1410,19 @@ Transform:
   m_Father: {fileID: 1898539764}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &699358250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 699358245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63a63c20968612243b41eb0837816676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brickParticle: {fileID: 1189039463878214, guid: 76baf8f1aafc8a64daf783af6d49db75,
+    type: 2}
 --- !u!1 &725081661
 GameObject:
   m_ObjectHideFlags: 0
@@ -1294,6 +1434,7 @@ GameObject:
   - component: {fileID: 725081664}
   - component: {fileID: 725081663}
   - component: {fileID: 725081662}
+  - component: {fileID: 725081666}
   m_Layer: 0
   m_Name: Brick (10)
   m_TagString: Untagged
@@ -1367,6 +1508,19 @@ Transform:
   m_Father: {fileID: 1898539764}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &725081666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 725081661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63a63c20968612243b41eb0837816676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brickParticle: {fileID: 1189039463878214, guid: 76baf8f1aafc8a64daf783af6d49db75,
+    type: 2}
 --- !u!1 &727456099
 GameObject:
   m_ObjectHideFlags: 0
@@ -1378,6 +1532,7 @@ GameObject:
   - component: {fileID: 727456102}
   - component: {fileID: 727456101}
   - component: {fileID: 727456100}
+  - component: {fileID: 727456104}
   m_Layer: 0
   m_Name: Brick (24)
   m_TagString: Untagged
@@ -1451,6 +1606,19 @@ Transform:
   m_Father: {fileID: 1898539764}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &727456104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 727456099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63a63c20968612243b41eb0837816676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brickParticle: {fileID: 1189039463878214, guid: 76baf8f1aafc8a64daf783af6d49db75,
+    type: 2}
 --- !u!1 &737545294
 GameObject:
   m_ObjectHideFlags: 0
@@ -1462,6 +1630,7 @@ GameObject:
   - component: {fileID: 737545297}
   - component: {fileID: 737545296}
   - component: {fileID: 737545295}
+  - component: {fileID: 737545299}
   m_Layer: 0
   m_Name: Brick (22)
   m_TagString: Untagged
@@ -1535,6 +1704,19 @@ Transform:
   m_Father: {fileID: 1898539764}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &737545299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 737545294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63a63c20968612243b41eb0837816676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brickParticle: {fileID: 1189039463878214, guid: 76baf8f1aafc8a64daf783af6d49db75,
+    type: 2}
 --- !u!1 &772297304
 GameObject:
   m_ObjectHideFlags: 0
@@ -1546,6 +1728,7 @@ GameObject:
   - component: {fileID: 772297307}
   - component: {fileID: 772297306}
   - component: {fileID: 772297305}
+  - component: {fileID: 772297309}
   m_Layer: 0
   m_Name: Brick (26)
   m_TagString: Untagged
@@ -1618,6 +1801,68 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1898539764}
   m_RootOrder: 26
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &772297309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 772297304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63a63c20968612243b41eb0837816676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brickParticle: {fileID: 1189039463878214, guid: 76baf8f1aafc8a64daf783af6d49db75,
+    type: 2}
+--- !u!1 &791532273
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 791532275}
+  - component: {fileID: 791532274}
+  m_Layer: 0
+  m_Name: GM
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &791532274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 791532273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2499c47d07b3bda47a6659c07633f1a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lives: 3
+  bricks: 24
+  resetDelay: 1
+  livesText: {fileID: 195036690}
+  gameOver: {fileID: 589320547}
+  youWon: {fileID: 2141713449}
+  bricksPrefab: {fileID: 0}
+  paddle: {fileID: 604324294}
+  deathParticles: {fileID: 0}
+--- !u!4 &791532275
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 791532273}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &826604596
 GameObject:
@@ -1810,6 +2055,7 @@ GameObject:
   - component: {fileID: 980209522}
   - component: {fileID: 980209521}
   - component: {fileID: 980209520}
+  - component: {fileID: 980209524}
   m_Layer: 0
   m_Name: Brick (29)
   m_TagString: Untagged
@@ -1883,6 +2129,19 @@ Transform:
   m_Father: {fileID: 1898539764}
   m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &980209524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 980209519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63a63c20968612243b41eb0837816676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brickParticle: {fileID: 1189039463878214, guid: 76baf8f1aafc8a64daf783af6d49db75,
+    type: 2}
 --- !u!1 &1023888937
 GameObject:
   m_ObjectHideFlags: 0
@@ -1894,6 +2153,7 @@ GameObject:
   - component: {fileID: 1023888940}
   - component: {fileID: 1023888939}
   - component: {fileID: 1023888938}
+  - component: {fileID: 1023888942}
   m_Layer: 0
   m_Name: Brick (1)
   m_TagString: Untagged
@@ -1967,6 +2227,19 @@ Transform:
   m_Father: {fileID: 1898539764}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1023888942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1023888937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63a63c20968612243b41eb0837816676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brickParticle: {fileID: 1189039463878214, guid: 76baf8f1aafc8a64daf783af6d49db75,
+    type: 2}
 --- !u!1 &1127640837
 GameObject:
   m_ObjectHideFlags: 0
@@ -1978,6 +2251,7 @@ GameObject:
   - component: {fileID: 1127640840}
   - component: {fileID: 1127640839}
   - component: {fileID: 1127640838}
+  - component: {fileID: 1127640842}
   m_Layer: 0
   m_Name: Brick (30)
   m_TagString: Untagged
@@ -2051,6 +2325,19 @@ Transform:
   m_Father: {fileID: 1898539764}
   m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1127640842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1127640837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63a63c20968612243b41eb0837816676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brickParticle: {fileID: 1189039463878214, guid: 76baf8f1aafc8a64daf783af6d49db75,
+    type: 2}
 --- !u!1 &1159765817
 GameObject:
   m_ObjectHideFlags: 0
@@ -2175,6 +2462,7 @@ GameObject:
   - component: {fileID: 1180831633}
   - component: {fileID: 1180831632}
   - component: {fileID: 1180831631}
+  - component: {fileID: 1180831635}
   m_Layer: 0
   m_Name: Brick (21)
   m_TagString: Untagged
@@ -2248,6 +2536,19 @@ Transform:
   m_Father: {fileID: 1898539764}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1180831635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1180831630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63a63c20968612243b41eb0837816676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brickParticle: {fileID: 1189039463878214, guid: 76baf8f1aafc8a64daf783af6d49db75,
+    type: 2}
 --- !u!1 &1191185508
 GameObject:
   m_ObjectHideFlags: 0
@@ -2259,6 +2560,7 @@ GameObject:
   - component: {fileID: 1191185511}
   - component: {fileID: 1191185510}
   - component: {fileID: 1191185509}
+  - component: {fileID: 1191185513}
   m_Layer: 0
   m_Name: Brick (23)
   m_TagString: Untagged
@@ -2332,6 +2634,19 @@ Transform:
   m_Father: {fileID: 1898539764}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1191185513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1191185508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63a63c20968612243b41eb0837816676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brickParticle: {fileID: 1189039463878214, guid: 76baf8f1aafc8a64daf783af6d49db75,
+    type: 2}
 --- !u!1 &1199714455
 GameObject:
   m_ObjectHideFlags: 0
@@ -2343,6 +2658,7 @@ GameObject:
   - component: {fileID: 1199714458}
   - component: {fileID: 1199714457}
   - component: {fileID: 1199714456}
+  - component: {fileID: 1199714460}
   m_Layer: 0
   m_Name: Brick (7)
   m_TagString: Untagged
@@ -2416,6 +2732,19 @@ Transform:
   m_Father: {fileID: 1898539764}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1199714460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1199714455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63a63c20968612243b41eb0837816676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brickParticle: {fileID: 1189039463878214, guid: 76baf8f1aafc8a64daf783af6d49db75,
+    type: 2}
 --- !u!1 &1251663839
 GameObject:
   m_ObjectHideFlags: 0
@@ -2427,6 +2756,7 @@ GameObject:
   - component: {fileID: 1251663842}
   - component: {fileID: 1251663841}
   - component: {fileID: 1251663840}
+  - component: {fileID: 1251663844}
   m_Layer: 0
   m_Name: Brick (19)
   m_TagString: Untagged
@@ -2500,6 +2830,19 @@ Transform:
   m_Father: {fileID: 1898539764}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1251663844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1251663839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63a63c20968612243b41eb0837816676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brickParticle: {fileID: 1189039463878214, guid: 76baf8f1aafc8a64daf783af6d49db75,
+    type: 2}
 --- !u!1 &1258983089
 GameObject:
   m_ObjectHideFlags: 0
@@ -2511,6 +2854,7 @@ GameObject:
   - component: {fileID: 1258983092}
   - component: {fileID: 1258983091}
   - component: {fileID: 1258983090}
+  - component: {fileID: 1258983094}
   m_Layer: 0
   m_Name: Brick (3)
   m_TagString: Untagged
@@ -2584,6 +2928,19 @@ Transform:
   m_Father: {fileID: 1898539764}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1258983094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1258983089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63a63c20968612243b41eb0837816676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brickParticle: {fileID: 1189039463878214, guid: 76baf8f1aafc8a64daf783af6d49db75,
+    type: 2}
 --- !u!1 &1326897510
 GameObject:
   m_ObjectHideFlags: 0
@@ -2676,6 +3033,7 @@ GameObject:
   - component: {fileID: 1368735425}
   - component: {fileID: 1368735424}
   - component: {fileID: 1368735423}
+  - component: {fileID: 1368735427}
   m_Layer: 0
   m_Name: Brick (18)
   m_TagString: Untagged
@@ -2749,6 +3107,19 @@ Transform:
   m_Father: {fileID: 1898539764}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1368735427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1368735422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63a63c20968612243b41eb0837816676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brickParticle: {fileID: 1189039463878214, guid: 76baf8f1aafc8a64daf783af6d49db75,
+    type: 2}
 --- !u!1 &1381095532
 GameObject:
   m_ObjectHideFlags: 0
@@ -2760,6 +3131,7 @@ GameObject:
   - component: {fileID: 1381095535}
   - component: {fileID: 1381095534}
   - component: {fileID: 1381095533}
+  - component: {fileID: 1381095537}
   m_Layer: 0
   m_Name: Brick (6)
   m_TagString: Untagged
@@ -2833,6 +3205,19 @@ Transform:
   m_Father: {fileID: 1898539764}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1381095537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1381095532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63a63c20968612243b41eb0837816676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brickParticle: {fileID: 1189039463878214, guid: 76baf8f1aafc8a64daf783af6d49db75,
+    type: 2}
 --- !u!1 &1580617948
 GameObject:
   m_ObjectHideFlags: 0
@@ -2844,6 +3229,7 @@ GameObject:
   - component: {fileID: 1580617951}
   - component: {fileID: 1580617950}
   - component: {fileID: 1580617949}
+  - component: {fileID: 1580617953}
   m_Layer: 0
   m_Name: Brick (27)
   m_TagString: Untagged
@@ -2917,6 +3303,19 @@ Transform:
   m_Father: {fileID: 1898539764}
   m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1580617953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1580617948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63a63c20968612243b41eb0837816676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brickParticle: {fileID: 1189039463878214, guid: 76baf8f1aafc8a64daf783af6d49db75,
+    type: 2}
 --- !u!1 &1603208843
 GameObject:
   m_ObjectHideFlags: 0
@@ -3096,6 +3495,7 @@ GameObject:
   - component: {fileID: 1659617040}
   - component: {fileID: 1659617039}
   - component: {fileID: 1659617038}
+  - component: {fileID: 1659617042}
   m_Layer: 0
   m_Name: Brick (15)
   m_TagString: Untagged
@@ -3169,6 +3569,19 @@ Transform:
   m_Father: {fileID: 1898539764}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1659617042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1659617037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63a63c20968612243b41eb0837816676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brickParticle: {fileID: 1189039463878214, guid: 76baf8f1aafc8a64daf783af6d49db75,
+    type: 2}
 --- !u!1 &1879580727
 GameObject:
   m_ObjectHideFlags: 0
@@ -3180,6 +3593,7 @@ GameObject:
   - component: {fileID: 1879580730}
   - component: {fileID: 1879580729}
   - component: {fileID: 1879580728}
+  - component: {fileID: 1879580732}
   m_Layer: 0
   m_Name: Brick
   m_TagString: Untagged
@@ -3253,6 +3667,19 @@ Transform:
   m_Father: {fileID: 1898539764}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1879580732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1879580727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63a63c20968612243b41eb0837816676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brickParticle: {fileID: 1189039463878214, guid: 76baf8f1aafc8a64daf783af6d49db75,
+    type: 2}
 --- !u!1 &1898539763
 GameObject:
   m_ObjectHideFlags: 0
@@ -3324,6 +3751,7 @@ GameObject:
   - component: {fileID: 1902862432}
   - component: {fileID: 1902862431}
   - component: {fileID: 1902862430}
+  - component: {fileID: 1902862434}
   m_Layer: 0
   m_Name: Brick (5)
   m_TagString: Untagged
@@ -3397,6 +3825,19 @@ Transform:
   m_Father: {fileID: 1898539764}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1902862434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1902862429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63a63c20968612243b41eb0837816676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brickParticle: {fileID: 1189039463878214, guid: 76baf8f1aafc8a64daf783af6d49db75,
+    type: 2}
 --- !u!1 &1917056833
 GameObject:
   m_ObjectHideFlags: 0
@@ -3408,6 +3849,7 @@ GameObject:
   - component: {fileID: 1917056836}
   - component: {fileID: 1917056835}
   - component: {fileID: 1917056834}
+  - component: {fileID: 1917056838}
   m_Layer: 0
   m_Name: Brick (25)
   m_TagString: Untagged
@@ -3481,6 +3923,19 @@ Transform:
   m_Father: {fileID: 1898539764}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1917056838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1917056833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63a63c20968612243b41eb0837816676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brickParticle: {fileID: 1189039463878214, guid: 76baf8f1aafc8a64daf783af6d49db75,
+    type: 2}
 --- !u!1 &1952417726
 GameObject:
   m_ObjectHideFlags: 0
@@ -3540,7 +3995,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1952417726}
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalPosition: {x: 0, y: 3, z: -11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3619,6 +4074,7 @@ GameObject:
   - component: {fileID: 2003322289}
   - component: {fileID: 2003322288}
   - component: {fileID: 2003322287}
+  - component: {fileID: 2003322291}
   m_Layer: 0
   m_Name: Brick (13)
   m_TagString: Untagged
@@ -3692,6 +4148,19 @@ Transform:
   m_Father: {fileID: 1898539764}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2003322291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2003322286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63a63c20968612243b41eb0837816676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brickParticle: {fileID: 1189039463878214, guid: 76baf8f1aafc8a64daf783af6d49db75,
+    type: 2}
 --- !u!1 &2079606348
 GameObject:
   m_ObjectHideFlags: 0
@@ -3703,6 +4172,7 @@ GameObject:
   - component: {fileID: 2079606351}
   - component: {fileID: 2079606350}
   - component: {fileID: 2079606349}
+  - component: {fileID: 2079606353}
   m_Layer: 0
   m_Name: Brick (28)
   m_TagString: Untagged
@@ -3776,6 +4246,19 @@ Transform:
   m_Father: {fileID: 1898539764}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2079606353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2079606348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63a63c20968612243b41eb0837816676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brickParticle: {fileID: 1189039463878214, guid: 76baf8f1aafc8a64daf783af6d49db75,
+    type: 2}
 --- !u!1 &2115236663
 GameObject:
   m_ObjectHideFlags: 0
@@ -3787,6 +4270,7 @@ GameObject:
   - component: {fileID: 2115236666}
   - component: {fileID: 2115236665}
   - component: {fileID: 2115236664}
+  - component: {fileID: 2115236668}
   m_Layer: 0
   m_Name: Brick (16)
   m_TagString: Untagged
@@ -3860,6 +4344,19 @@ Transform:
   m_Father: {fileID: 1898539764}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2115236668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2115236663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63a63c20968612243b41eb0837816676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brickParticle: {fileID: 1189039463878214, guid: 76baf8f1aafc8a64daf783af6d49db75,
+    type: 2}
 --- !u!1 &2141713449
 GameObject:
   m_ObjectHideFlags: 0
